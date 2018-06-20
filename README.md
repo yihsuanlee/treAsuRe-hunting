@@ -2,9 +2,7 @@
 Mobile Programming final project (NTU)
 
 ## Members
-王皓正
-李怡璇
-陳聖曄
+R06922034 王皓正   R06944014 李怡璇   R06922165 陳聖曄
 
 ## Introduction
 
