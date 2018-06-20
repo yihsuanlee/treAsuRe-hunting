@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6321720A207CAAA000A39F41 /* book.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63217207207CAAA000A39F41 /* book.jpg */; };
+		6321721D207CCAD300A39F41 /* mountain.scn in Resources */ = {isa = PBXBuildFile; fileRef = 6321721C207CC86800A39F41 /* mountain.scn */; };
+		63217221207CCCED00A39F41 /* tree.png in Resources */ = {isa = PBXBuildFile; fileRef = 63217220207CCCED00A39F41 /* tree.png */; };
+		63217230207CD49400A39F41 /* book.scn in Resources */ = {isa = PBXBuildFile; fileRef = 6321722F207CD3F100A39F41 /* book.scn */; };
+		63217231207CD49D00A39F41 /* tree.scn in Resources */ = {isa = PBXBuildFile; fileRef = 63217222207CCD0100A39F41 /* tree.scn */; };
+		63217233207CF6CD00A39F41 /* 3D Models Credits.md in Resources */ = {isa = PBXBuildFile; fileRef = 63217232207CF66C00A39F41 /* 3D Models Credits.md */; };
+		63B119212060F29400A7E3BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B119202060F29400A7E3BD /* AppDelegate.swift */; };
+		63B119232060F29400A7E3BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B119222060F29400A7E3BD /* ViewController.swift */; };
+		63B119262060F29400A7E3BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B119242060F29400A7E3BD /* Main.storyboard */; };
+		63B119282060F29400A7E3BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B119272060F29400A7E3BD /* Assets.xcassets */; };
+		63B1192B2060F29400A7E3BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B119292060F29400A7E3BD /* LaunchScreen.storyboard */; };
+		6E0BA35FEC6B98A7A8D45971 /* Pods_ARKitImageRecognition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4698397A90C98EF49BCC78D /* Pods_ARKitImageRecognition.framework */; };
+		D2C98C4320C54055002952E0 /* key_gold.dae in Resources */ = {isa = PBXBuildFile; fileRef = D2C98C4220C54055002952E0 /* key_gold.dae */; };
+		D2C98C4520C574E9002952E0 /* key_silver.dae in Resources */ = {isa = PBXBuildFile; fileRef = D2C98C4420C574E9002952E0 /* key_silver.dae */; };
+		D2C98C4E20C5A4C2002952E0 /* coin_tex.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C98C4D20C5A4C2002952E0 /* coin_tex.png */; };
+		D2C98C5420C5A6F5002952E0 /* chest_tex.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C98C5320C5A6F4002952E0 /* chest_tex.png */; };
+		D2CC407520C63F530064BD51 /* treasureBox.dae in Resources */ = {isa = PBXBuildFile; fileRef = D2CC407420C63F530064BD51 /* treasureBox.dae */; };
+		D2CC407720C6E4EB0064BD51 /* key_copper.dae in Resources */ = {isa = PBXBuildFile; fileRef = D2CC407620C6E4EB0064BD51 /* key_copper.dae */; };
+		D2CC407B20C6E5E50064BD51 /* KeySilver.tga in Resources */ = {isa = PBXBuildFile; fileRef = D2CC407820C6E5E50064BD51 /* KeySilver.tga */; };
+		D2CC407C20C6E5E50064BD51 /* KeyCopper.tga in Resources */ = {isa = PBXBuildFile; fileRef = D2CC407920C6E5E50064BD51 /* KeyCopper.tga */; };
+		D2CC408120C7879E0064BD51 /* KeyGold.tga in Resources */ = {isa = PBXBuildFile; fileRef = D2CC408020C7879E0064BD51 /* KeyGold.tga */; };
+		D2CC408620C852E40064BD51 /* goldKeyImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D2CC408320C852E30064BD51 /* goldKeyImage.png */; };
+		D2CC408720C852E40064BD51 /* silverKeyImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D2CC408420C852E30064BD51 /* silverKeyImage.png */; };
+		D2CC408820C852E40064BD51 /* copperKeyImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D2CC408520C852E40064BD51 /* copperKeyImage.png */; };
+		D2CC408A20C8D9E30064BD51 /* GameInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CC408920C8D9E30064BD51 /* GameInfo.swift */; };
+		D2CC408C20C911960064BD51 /* CreateGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CC408B20C911960064BD51 /* CreateGameViewController.swift */; };
+		D2CC408E20C9193A0064BD51 /* KeyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CC408D20C9193A0064BD51 /* KeyInfoViewController.swift */; };
+		D2CC409020C92BC40064BD51 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2CC408F20C92BC30064BD51 /* GoogleService-Info.plist */; };
+		D2CC409320CA7B6A0064BD51 /* editorbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = D2CC409220CA7B680064BD51 /* editorbackground.png */; };
+		D2D31F9E20CD1FB0007192E4 /* UploadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D31F9D20CD1FB0007192E4 /* UploadingViewController.swift */; };
+		D2D31FA220CD53B9007192E4 /* SlideAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D31FA120CD53B9007192E4 /* SlideAnimator.swift */; };
+		D2D31FA420CD5B1E007192E4 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D31FA320CD5B1E007192E4 /* MainMenuViewController.swift */; };
+		D2D31FA620CD80DF007192E4 /* GameSelectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D31FA520CD80DF007192E4 /* GameSelectTableViewController.swift */; };
+		D2D31FA820CE1521007192E4 /* GameSelectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D31FA720CE1521007192E4 /* GameSelectTableViewCell.swift */; };
+		D2D31FAA20CE1B3A007192E4 /* ScaleSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D31FA920CE1B3A007192E4 /* ScaleSegue.swift */; };
+		D2D31FAE20CE306D007192E4 /* gameLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D31FAD20CE306C007192E4 /* gameLogo.png */; };
+		D2D31FB420CE7423007192E4 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2D31FB020CE7423007192E4 /* win.mp3 */; };
+		D2D31FB520CE7423007192E4 /* getTreasureBox.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2D31FB120CE7423007192E4 /* getTreasureBox.mp3 */; };
+		D2D31FB620CE7423007192E4 /* getKey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2D31FB220CE7423007192E4 /* getKey.mp3 */; };
+		D2D31FB720CE7423007192E4 /* bgm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2D31FB320CE7423007192E4 /* bgm.mp3 */; };
+		D2D31FBB20CEC126007192E4 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D31FB920CEC125007192E4 /* home.png */; };
+		D2D31FBD20CEC54E007192E4 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D31FBC20CEC54E007192E4 /* LoadingViewController.swift */; };
+		D2D31FBF20CEC5BA007192E4 /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D31FBE20CEC5BA007192E4 /* loading.png */; };
+		D2D31FC320CECC0D007192E4 /* cave2.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D31FC220CECC0D007192E4 /* cave2.png */; };
+		D2D31FC720CECD33007192E4 /* ClueTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D31FC620CECD32007192E4 /* ClueTableViewController.swift */; };
+		D2D31FC920CED361007192E4 /* ClueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D31FC820CED361007192E4 /* ClueTableViewCell.swift */; };
+		D2D31FD520CED4F3007192E4 /* boxClose.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D31FD020CED4F1007192E4 /* boxClose.png */; };
+		D2D31FD620CED4F3007192E4 /* goldKeyImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D31FD120CED4F2007192E4 /* goldKeyImage.png */; };
+		D2D31FD720CED4F3007192E4 /* silverKeyImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D31FD220CED4F2007192E4 /* silverKeyImage.png */; };
+		D2D31FD920CED4F3007192E4 /* copperKeyImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D31FD420CED4F2007192E4 /* copperKeyImage.png */; };
+		D2D31FDB20CEEB60007192E4 /* DetailClueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D31FDA20CEEB60007192E4 /* DetailClueViewController.swift */; };
+		D2D31FDD20CF6F52007192E4 /* key_goldNew.dae in Resources */ = {isa = PBXBuildFile; fileRef = D2D31FDC20CF6F51007192E4 /* key_goldNew.dae */; };
+		D2D31FDF20D03F22007192E4 /* boxOpen.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D31FDE20D03F22007192E4 /* boxOpen.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A240FF9350E6C512DF10B6B /* Pods-ARKitImageRecognition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKitImageRecognition.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARKitImageRecognition/Pods-ARKitImageRecognition.release.xcconfig"; sourceTree = "<group>"; };
+		63217207207CAAA000A39F41 /* book.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = book.jpg; sourceTree = "<group>"; };
+		6321721C207CC86800A39F41 /* mountain.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = mountain.scn; sourceTree = "<group>"; };
+		63217220207CCCED00A39F41 /* tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree.png; sourceTree = "<group>"; };
+		63217222207CCD0100A39F41 /* tree.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = tree.scn; sourceTree = "<group>"; };
+		6321722F207CD3F100A39F41 /* book.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = book.scn; sourceTree = "<group>"; };
+		63217232207CF66C00A39F41 /* 3D Models Credits.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "3D Models Credits.md"; sourceTree = "<group>"; };
+		63B1191D2060F29400A7E3BD /* treAsuRe hunting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "treAsuRe hunting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B119202060F29400A7E3BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63B119222060F29400A7E3BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63B119252060F29400A7E3BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63B119272060F29400A7E3BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63B1192A2060F29400A7E3BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63B1192C2060F29500A7E3BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5267BAF4A5E63E245149634 /* Pods-ARKitImageRecognition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKitImageRecognition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARKitImageRecognition/Pods-ARKitImageRecognition.debug.xcconfig"; sourceTree = "<group>"; };
+		D2C98C4220C54055002952E0 /* key_gold.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = key_gold.dae; sourceTree = "<group>"; };
+		D2C98C4420C574E9002952E0 /* key_silver.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = key_silver.dae; sourceTree = "<group>"; };
+		D2C98C4D20C5A4C2002952E0 /* coin_tex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coin_tex.png; sourceTree = "<group>"; };
+		D2C98C5320C5A6F4002952E0 /* chest_tex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chest_tex.png; sourceTree = "<group>"; };
+		D2CC407420C63F530064BD51 /* treasureBox.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = treasureBox.dae; sourceTree = "<group>"; };
+		D2CC407620C6E4EB0064BD51 /* key_copper.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = key_copper.dae; sourceTree = "<group>"; };
+		D2CC407820C6E5E50064BD51 /* KeySilver.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = KeySilver.tga; sourceTree = "<group>"; };
+		D2CC407920C6E5E50064BD51 /* KeyCopper.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = KeyCopper.tga; sourceTree = "<group>"; };
+		D2CC408020C7879E0064BD51 /* KeyGold.tga */ = {isa = PBXFileReference; lastKnownFileType = file; name = KeyGold.tga; path = ../../../../DAE/KeyGold.tga; sourceTree = "<group>"; };
+		D2CC408320C852E30064BD51 /* goldKeyImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goldKeyImage.png; sourceTree = "<group>"; };
+		D2CC408420C852E30064BD51 /* silverKeyImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = silverKeyImage.png; sourceTree = "<group>"; };
+		D2CC408520C852E40064BD51 /* copperKeyImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = copperKeyImage.png; sourceTree = "<group>"; };
+		D2CC408920C8D9E30064BD51 /* GameInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameInfo.swift; sourceTree = "<group>"; };
+		D2CC408B20C911960064BD51 /* CreateGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGameViewController.swift; sourceTree = "<group>"; };
+		D2CC408D20C9193A0064BD51 /* KeyInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyInfoViewController.swift; sourceTree = "<group>"; };
+		D2CC408F20C92BC30064BD51 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D2CC409220CA7B680064BD51 /* editorbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = editorbackground.png; sourceTree = "<group>"; };
+		D2D31F9D20CD1FB0007192E4 /* UploadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadingViewController.swift; sourceTree = "<group>"; };
+		D2D31FA120CD53B9007192E4 /* SlideAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideAnimator.swift; sourceTree = "<group>"; };
+		D2D31FA320CD5B1E007192E4 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		D2D31FA520CD80DF007192E4 /* GameSelectTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSelectTableViewController.swift; sourceTree = "<group>"; };
+		D2D31FA720CE1521007192E4 /* GameSelectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSelectTableViewCell.swift; sourceTree = "<group>"; };
+		D2D31FA920CE1B3A007192E4 /* ScaleSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleSegue.swift; sourceTree = "<group>"; };
+		D2D31FAD20CE306C007192E4 /* gameLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameLogo.png; sourceTree = "<group>"; };
+		D2D31FB020CE7423007192E4 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		D2D31FB120CE7423007192E4 /* getTreasureBox.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = getTreasureBox.mp3; sourceTree = "<group>"; };
+		D2D31FB220CE7423007192E4 /* getKey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = getKey.mp3; sourceTree = "<group>"; };
+		D2D31FB320CE7423007192E4 /* bgm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm.mp3; sourceTree = "<group>"; };
+		D2D31FB920CEC125007192E4 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		D2D31FBC20CEC54E007192E4 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		D2D31FBE20CEC5BA007192E4 /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading.png; sourceTree = "<group>"; };
+		D2D31FC220CECC0D007192E4 /* cave2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cave2.png; sourceTree = "<group>"; };
+		D2D31FC620CECD32007192E4 /* ClueTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClueTableViewController.swift; sourceTree = "<group>"; };
+		D2D31FC820CED361007192E4 /* ClueTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClueTableViewCell.swift; sourceTree = "<group>"; };
+		D2D31FD020CED4F1007192E4 /* boxClose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boxClose.png; sourceTree = "<group>"; };
+		D2D31FD120CED4F2007192E4 /* goldKeyImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goldKeyImage.png; sourceTree = "<group>"; };
+		D2D31FD220CED4F2007192E4 /* silverKeyImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = silverKeyImage.png; sourceTree = "<group>"; };
+		D2D31FD420CED4F2007192E4 /* copperKeyImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = copperKeyImage.png; sourceTree = "<group>"; };
+		D2D31FDA20CEEB60007192E4 /* DetailClueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailClueViewController.swift; sourceTree = "<group>"; };
+		D2D31FDC20CF6F51007192E4 /* key_goldNew.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = key_goldNew.dae; sourceTree = "<group>"; };
+		D2D31FDE20D03F22007192E4 /* boxOpen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boxOpen.png; sourceTree = "<group>"; };
+		F4698397A90C98EF49BCC78D /* Pods_ARKitImageRecognition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARKitImageRecognition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63B1191A2060F29400A7E3BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E0BA35FEC6B98A7A8D45971 /* Pods_ARKitImageRecognition.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		632171E2207C9ED700A39F41 /* 3D Models */ = {
+			isa = PBXGroup;
+			children = (
+				63217232207CF66C00A39F41 /* 3D Models Credits.md */,
+				D2C98C4A20C5A457002952E0 /* Box */,
+				D2C98C3A20C538B0002952E0 /* Key */,
+				63217201207CAA5800A39F41 /* Book */,
+				632171EC207CA01300A39F41 /* Mountain */,
+				632171E3207C9EF300A39F41 /* Tree */,
+			);
+			path = "3D Models";
+			sourceTree = "<group>";
+		};
+		632171E3207C9EF300A39F41 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				63217220207CCCED00A39F41 /* tree.png */,
+				63217222207CCD0100A39F41 /* tree.scn */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+		632171EC207CA01300A39F41 /* Mountain */ = {
+			isa = PBXGroup;
+			children = (
+				6321721C207CC86800A39F41 /* mountain.scn */,
+			);
+			path = Mountain;
+			sourceTree = "<group>";
+		};
+		63217201207CAA5800A39F41 /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				63217207207CAAA000A39F41 /* book.jpg */,
+				6321722F207CD3F100A39F41 /* book.scn */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		63B119142060F29400A7E3BD = {
+			isa = PBXGroup;
+			children = (
+				63B1191F2060F29400A7E3BD /* ARKitImageRecognition */,
+				63B1191E2060F29400A7E3BD /* Products */,
+				F72ABF6F22EE82C06CE5F7D6 /* Pods */,
+				74AC5838931C95A569AACA63 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63B1191E2060F29400A7E3BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63B1191D2060F29400A7E3BD /* treAsuRe hunting.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63B1191F2060F29400A7E3BD /* ARKitImageRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				D2D31FCA20CED43D007192E4 /* ClueIcon */,
+				D2D31FAF20CE73BF007192E4 /* Audio */,
+				D2CC409120CA7B1F0064BD51 /* BackGroundImages */,
+				D2CC408F20C92BC30064BD51 /* GoogleService-Info.plist */,
+				632171E2207C9ED700A39F41 /* 3D Models */,
+				63B119202060F29400A7E3BD /* AppDelegate.swift */,
+				63B119222060F29400A7E3BD /* ViewController.swift */,
+				63B119242060F29400A7E3BD /* Main.storyboard */,
+				63B119272060F29400A7E3BD /* Assets.xcassets */,
+				63B119292060F29400A7E3BD /* LaunchScreen.storyboard */,
+				63B1192C2060F29500A7E3BD /* Info.plist */,
+				D2CC408920C8D9E30064BD51 /* GameInfo.swift */,
+				D2CC408B20C911960064BD51 /* CreateGameViewController.swift */,
+				D2CC408D20C9193A0064BD51 /* KeyInfoViewController.swift */,
+				D2D31F9D20CD1FB0007192E4 /* UploadingViewController.swift */,
+				D2D31FA120CD53B9007192E4 /* SlideAnimator.swift */,
+				D2D31FA320CD5B1E007192E4 /* MainMenuViewController.swift */,
+				D2D31FA520CD80DF007192E4 /* GameSelectTableViewController.swift */,
+				D2D31FA720CE1521007192E4 /* GameSelectTableViewCell.swift */,
+				D2D31FA920CE1B3A007192E4 /* ScaleSegue.swift */,
+				D2D31FBC20CEC54E007192E4 /* LoadingViewController.swift */,
+				D2D31FC620CECD32007192E4 /* ClueTableViewController.swift */,
+				D2D31FC820CED361007192E4 /* ClueTableViewCell.swift */,
+				D2D31FDA20CEEB60007192E4 /* DetailClueViewController.swift */,
+			);
+			path = ARKitImageRecognition;
+			sourceTree = "<group>";
+		};
+		74AC5838931C95A569AACA63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4698397A90C98EF49BCC78D /* Pods_ARKitImageRecognition.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2C98C3A20C538B0002952E0 /* Key */ = {
+			isa = PBXGroup;
+			children = (
+				D2CC408520C852E40064BD51 /* copperKeyImage.png */,
+				D2CC408320C852E30064BD51 /* goldKeyImage.png */,
+				D2CC408420C852E30064BD51 /* silverKeyImage.png */,
+				D2CC408020C7879E0064BD51 /* KeyGold.tga */,
+				D2CC407920C6E5E50064BD51 /* KeyCopper.tga */,
+				D2CC407820C6E5E50064BD51 /* KeySilver.tga */,
+				D2CC407620C6E4EB0064BD51 /* key_copper.dae */,
+				D2C98C4420C574E9002952E0 /* key_silver.dae */,
+				D2D31FDC20CF6F51007192E4 /* key_goldNew.dae */,
+				D2C98C4220C54055002952E0 /* key_gold.dae */,
+			);
+			path = Key;
+			sourceTree = "<group>";
+		};
+		D2C98C4A20C5A457002952E0 /* Box */ = {
+			isa = PBXGroup;
+			children = (
+				D2C98C5320C5A6F4002952E0 /* chest_tex.png */,
+				D2CC407420C63F530064BD51 /* treasureBox.dae */,
+				D2C98C4D20C5A4C2002952E0 /* coin_tex.png */,
+			);
+			path = Box;
+			sourceTree = "<group>";
+		};
+		D2CC409120CA7B1F0064BD51 /* BackGroundImages */ = {
+			isa = PBXGroup;
+			children = (
+				D2D31FC220CECC0D007192E4 /* cave2.png */,
+				D2D31FBE20CEC5BA007192E4 /* loading.png */,
+				D2D31FB920CEC125007192E4 /* home.png */,
+				D2D31FAD20CE306C007192E4 /* gameLogo.png */,
+				D2CC409220CA7B680064BD51 /* editorbackground.png */,
+			);
+			path = BackGroundImages;
+			sourceTree = "<group>";
+		};
+		D2D31FAF20CE73BF007192E4 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				D2D31FB320CE7423007192E4 /* bgm.mp3 */,
+				D2D31FB220CE7423007192E4 /* getKey.mp3 */,
+				D2D31FB120CE7423007192E4 /* getTreasureBox.mp3 */,
+				D2D31FB020CE7423007192E4 /* win.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		D2D31FCA20CED43D007192E4 /* ClueIcon */ = {
+			isa = PBXGroup;
+			children = (
+				D2D31FDE20D03F22007192E4 /* boxOpen.png */,
+				D2D31FD020CED4F1007192E4 /* boxClose.png */,
+				D2D31FD420CED4F2007192E4 /* copperKeyImage.png */,
+				D2D31FD120CED4F2007192E4 /* goldKeyImage.png */,
+				D2D31FD220CED4F2007192E4 /* silverKeyImage.png */,
+			);
+			path = ClueIcon;
+			sourceTree = "<group>";
+		};
+		F72ABF6F22EE82C06CE5F7D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5267BAF4A5E63E245149634 /* Pods-ARKitImageRecognition.debug.xcconfig */,
+				3A240FF9350E6C512DF10B6B /* Pods-ARKitImageRecognition.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63B1191C2060F29400A7E3BD /* ARKitImageRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B1192F2060F29500A7E3BD /* Build configuration list for PBXNativeTarget "ARKitImageRecognition" */;
+			buildPhases = (
+				2324DB3DFBBA1F7CFE6C96B2 /* [CP] Check Pods Manifest.lock */,
+				63B119192060F29400A7E3BD /* Sources */,
+				63B1191A2060F29400A7E3BD /* Frameworks */,
+				63B1191B2060F29400A7E3BD /* Resources */,
+				83A50496B496301CB0718FA0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARKitImageRecognition;
+			productName = "Image Recognition";
+			productReference = 63B1191D2060F29400A7E3BD /* treAsuRe hunting.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63B119152060F29400A7E3BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Jayven Nhan";
+				TargetAttributes = {
+					63B1191C2060F29400A7E3BD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 63B119182060F29400A7E3BD /* Build configuration list for PBXProject "ARKitImageRecognition" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63B119142060F29400A7E3BD;
+			productRefGroup = 63B1191E2060F29400A7E3BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63B1191C2060F29400A7E3BD /* ARKitImageRecognition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63B1191B2060F29400A7E3BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D31FBF20CEC5BA007192E4 /* loading.png in Resources */,
+				63B1192B2060F29400A7E3BD /* LaunchScreen.storyboard in Resources */,
+				D2CC407720C6E4EB0064BD51 /* key_copper.dae in Resources */,
+				D2CC407C20C6E5E50064BD51 /* KeyCopper.tga in Resources */,
+				D2D31FD720CED4F3007192E4 /* silverKeyImage.png in Resources */,
+				D2D31FB620CE7423007192E4 /* getKey.mp3 in Resources */,
+				63217230207CD49400A39F41 /* book.scn in Resources */,
+				D2D31FB520CE7423007192E4 /* getTreasureBox.mp3 in Resources */,
+				D2CC408620C852E40064BD51 /* goldKeyImage.png in Resources */,
+				D2D31FAE20CE306D007192E4 /* gameLogo.png in Resources */,
+				63217231207CD49D00A39F41 /* tree.scn in Resources */,
+				D2C98C4520C574E9002952E0 /* key_silver.dae in Resources */,
+				D2CC407B20C6E5E50064BD51 /* KeySilver.tga in Resources */,
+				6321721D207CCAD300A39F41 /* mountain.scn in Resources */,
+				D2D31FC320CECC0D007192E4 /* cave2.png in Resources */,
+				D2CC408120C7879E0064BD51 /* KeyGold.tga in Resources */,
+				D2C98C5420C5A6F5002952E0 /* chest_tex.png in Resources */,
+				63B119282060F29400A7E3BD /* Assets.xcassets in Resources */,
+				D2C98C4320C54055002952E0 /* key_gold.dae in Resources */,
+				D2D31FDD20CF6F52007192E4 /* key_goldNew.dae in Resources */,
+				63B119262060F29400A7E3BD /* Main.storyboard in Resources */,
+				D2D31FB420CE7423007192E4 /* win.mp3 in Resources */,
+				D2CC407520C63F530064BD51 /* treasureBox.dae in Resources */,
+				6321720A207CAAA000A39F41 /* book.jpg in Resources */,
+				D2C98C4E20C5A4C2002952E0 /* coin_tex.png in Resources */,
+				D2CC408820C852E40064BD51 /* copperKeyImage.png in Resources */,
+				D2D31FD920CED4F3007192E4 /* copperKeyImage.png in Resources */,
+				63217233207CF6CD00A39F41 /* 3D Models Credits.md in Resources */,
+				D2CC409020C92BC40064BD51 /* GoogleService-Info.plist in Resources */,
+				D2CC408720C852E40064BD51 /* silverKeyImage.png in Resources */,
+				D2D31FBB20CEC126007192E4 /* home.png in Resources */,
+				63217221207CCCED00A39F41 /* tree.png in Resources */,
+				D2CC409320CA7B6A0064BD51 /* editorbackground.png in Resources */,
+				D2D31FD620CED4F3007192E4 /* goldKeyImage.png in Resources */,
+				D2D31FD520CED4F3007192E4 /* boxClose.png in Resources */,
+				D2D31FDF20D03F22007192E4 /* boxOpen.png in Resources */,
+				D2D31FB720CE7423007192E4 /* bgm.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2324DB3DFBBA1F7CFE6C96B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARKitImageRecognition-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83A50496B496301CB0718FA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ARKitImageRecognition/Pods-ARKitImageRecognition-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARKitImageRecognition/Pods-ARKitImageRecognition-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63B119192060F29400A7E3BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D31FA420CD5B1E007192E4 /* MainMenuViewController.swift in Sources */,
+				D2D31F9E20CD1FB0007192E4 /* UploadingViewController.swift in Sources */,
+				D2D31FDB20CEEB60007192E4 /* DetailClueViewController.swift in Sources */,
+				63B119232060F29400A7E3BD /* ViewController.swift in Sources */,
+				63B119212060F29400A7E3BD /* AppDelegate.swift in Sources */,
+				D2D31FA220CD53B9007192E4 /* SlideAnimator.swift in Sources */,
+				D2D31FA820CE1521007192E4 /* GameSelectTableViewCell.swift in Sources */,
+				D2CC408C20C911960064BD51 /* CreateGameViewController.swift in Sources */,
+				D2CC408A20C8D9E30064BD51 /* GameInfo.swift in Sources */,
+				D2D31FAA20CE1B3A007192E4 /* ScaleSegue.swift in Sources */,
+				D2CC408E20C9193A0064BD51 /* KeyInfoViewController.swift in Sources */,
+				D2D31FC920CED361007192E4 /* ClueTableViewCell.swift in Sources */,
+				D2D31FA620CD80DF007192E4 /* GameSelectTableViewController.swift in Sources */,
+				D2D31FBD20CEC54E007192E4 /* LoadingViewController.swift in Sources */,
+				D2D31FC720CECD33007192E4 /* ClueTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63B119242060F29400A7E3BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63B119252060F29400A7E3BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63B119292060F29400A7E3BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63B1192A2060F29400A7E3BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63B1192D2060F29500A7E3BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63B1192E2060F29500A7E3BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63B119302060F29500A7E3BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5267BAF4A5E63E245149634 /* Pods-ARKitImageRecognition.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AJPD5AP2QD;
+				INFOPLIST_FILE = "$(SRCROOT)/ARKitImageRecognition/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = imlab.ARKitImageRecognition;
+				PRODUCT_NAME = "treAsuRe hunting";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63B119312060F29500A7E3BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A240FF9350E6C512DF10B6B /* Pods-ARKitImageRecognition.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AJPD5AP2QD;
+				INFOPLIST_FILE = "$(SRCROOT)/ARKitImageRecognition/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = imlab.ARKitImageRecognition;
+				PRODUCT_NAME = "treAsuRe hunting";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63B119182060F29400A7E3BD /* Build configuration list for PBXProject "ARKitImageRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B1192D2060F29500A7E3BD /* Debug */,
+				63B1192E2060F29500A7E3BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B1192F2060F29500A7E3BD /* Build configuration list for PBXNativeTarget "ARKitImageRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B119302060F29500A7E3BD /* Debug */,
+				63B119312060F29500A7E3BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63B119152060F29400A7E3BD /* Project object */;
+}
