@@ -1,15 +1,15 @@
 # treAsuRe-hunting
 Mobile Programming final project (NTU)
 
-##Members
+## Members
 王皓正
 李怡璇
 陳聖曄
 
-##Introduction
+## Introduction
 
-##Screenshots of application
+## Screenshots of application
 
 
-##Links of demo videos
+## Links of demo videos
 https://youtu.be/0N_xeq2hFbU
